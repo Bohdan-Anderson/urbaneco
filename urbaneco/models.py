@@ -5,7 +5,7 @@ from django.template.defaultfilters import slugify
 class Person(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-    # affiliation = models.CharField(max_length=30)
+    affiliation = models.CharField(max_length=140)
     slug = models.SlugField(blank=True)
     
     def __unicode__(self):
@@ -29,8 +29,9 @@ class Theme(models.Model):
 
 class Event(models.Model):
     event_name = models.CharField(max_length=30)
-    time = models.DateTimeField(blank=True)
-    location = models.CharField(max_length=30, blank=True)
+    time_start = models.DateTimeField(blank=True)
+    time_end = models.DateTimeField(blank=True)
+    location = models.CharField(max_length=50, blank=True)
     description = models.TextField(max_length=400, blank=True)
     slug = models.SlugField(blank=True)
     
@@ -50,6 +51,7 @@ class Membership(models.Model):
     person = models.ForeignKey(Person)
     event = models.ForeignKey(Event)
     role = models.CharField(max_length=50)
+    talk_title = models.CharField(max_length=50)
     
     def __unicode__(self):
         return "name: " + self.person.first_name + "// event: " + self.event.event_name + "// role: " + self.role
