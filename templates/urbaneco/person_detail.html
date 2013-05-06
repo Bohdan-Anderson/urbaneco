@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	{% if object %}
+	<h1>Speaker</h1>
+	
+		<p>first name: {{ object.first_name }}</p>
+		<p>last name: {{ object.last_name }}</p>
+		
+		{% for e in object.events.all %}
+			<h1>{{ e.event_name }}</h1>
+		{% endfor %}
+	{% endif %}
+
+{% endblock %}

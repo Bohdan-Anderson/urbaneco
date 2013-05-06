@@ -1,0 +1,611 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media all and (min-width: 80px) and (max-width: 900px) { 
+	
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+	
+	#sm-link {
+		display: none !important;
+	}
+	
+	#sm-link-mobile {
+		display: block !important;
+		float: none;
+	}
+	
+	#sm-link-mobile img {
+		margin-top: 0.2em;
+		width: 1em;
+	}
+	
+	p {
+		font-size: 0.9em;
+	}
+
+	blockquote {
+		font-size: 1.8em;
+	}
+
+	a {
+		position:relative;
+		z-index:99;
+		text-decoration:none;
+		font-size:0.8em;
+		color:#FFF;
+	}
+	
+	h1 {
+		font-size: 6.5em;
+		
+		width: 90% !important;		
+		margin: 0 auto 0.5em auto !important;
+
+		padding: 0 !important;
+		
+		text-align: center;
+	
+	  	 background-color: #FFF;
+	  	 border: solid 0.1em;
+	  	 text-decoration: none;
+	  	 text-transform: uppercase;
+	 	
+		background-color: #FFF;
+		border: solid 0.1em;
+
+		-moz-box-shadow: 10px 10px 0;
+		-webkit-box-shadow: 10px 10px 0;
+		box-shadow: 10px 10px 0;
+	}
+	
+	#video {
+		margin-top: 12em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+	   font-size: 1em;
+	}
+	
+	.special-wrap {
+		display: none;
+	}
+	
+	blockquote {
+		font-size: 3.2em;
+		width: 98%;
+		background-color: rgba(255,255,255,0) !important;
+		line-height: 1.2em;
+	}
+	
+	section {
+	   padding-top: 12em;
+		margin: 0 auto 0 auto !important;
+	   position: relative;
+		width: 100%;
+	}
+			
+   #about blockquote {
+		color: rgb(21,143,207);
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+	}
+	
+	#about h1 {
+		margin-top: 2em !important;
+	}
+	  	
+   #ocaduniversity blockquote {
+		color: rgb(198, 126, 180);
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+	}
+	
+   #description li {
+	width: 100%;
+	float: none;
+	margin-bottom: 0;
+	
+	font-size: 2.8em;
+   }
+	
+   #themes #description h2 {
+	   text-align: center;
+	   padding-left:0.25em;
+	   margin:0;
+	   z-index:99;
+   }
+
+   #themes #description h3 {
+	   position:relative;
+	   text-align:left;
+	   font-size: 1em !important;
+	   padding-left:0.4em;
+	   margin: 0.5em 0 0 0;
+	   z-index:99;
+	text-transform: uppercase;
+	color: #000;
+	opacity: 0.6;
+   }
+	
+	#thinking {
+		margin: 0;
+	}
+	
+	#building {
+		margin: 0;
+	}
+	
+	#regenerating {
+		margin: 0;
+	}
+	
+	#creating {
+		margin: 0;
+	}
+	
+	#visualizing {
+		margin: 0;
+	}
+	
+	#description img {
+		margin: 0 auto 0 auto;
+		overflow: hidden;
+	}
+	
+	#description p {
+		overflow: hidden; 
+	}
+	
+	#themes blockquote {
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+		color: rgb(229,168,35);
+	}
+	
+	table td {
+		padding-left: 0.5em;
+		white-space: pre-wrap;
+	}
+		
+	table {
+		font-size: 2.5em;
+		width: 100%;
+	}
+	
+	#registration blockquote {
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+		color: rgb(0,164,93);
+	}
+	
+   #registration li {
+	width: 100%;
+	margin: 0 auto 3.5em auto;
+	float: none;
+	text-align: center;
+	background-color: rgba(255,255,255,0) !important;
+	padding-bottom: 0.6em;
+   }
+
+	#registration ul {
+		padding: 0;
+		margin: 3em auto 0 auto;
+		width: 90%;
+	}
+	
+   #registration h2{
+		padding: 0.3em 0 0.3em 0;
+		text-transform: uppercase;
+		font-size: 4em;
+		color: #FFF;
+    }
+	 
+    #registration h3{
+ 	   margin-top: 0.5em;
+ 	 font-size: 3.2em;
+ 	 color: rgb(0,164,93);
+    }
+	 
+	 #registration p {
+	    color:#000;
+	 	opacity: 0.6;
+	    font-size: 5em !important;	   
+	 }
+	 
+    #registration a{
+ 	padding: 0 0.3em 0 0.3em;
+ 	 margin: 0 0 0 18%;
+	 
+ 	 white-space: nowrap;
+ 	 background-color: #FFF;
+ 	 border: solid 0.1em #00A55D;
+
+ 	 font-size: 5em;
+	 
+ 	 color:#00A55D;
+	 
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+ 	 -moz-box-shadow: 10px 10px 0 #00A55D;
+ 	 -webkit-box-shadow: 10px 10px 0 #00A55D;
+ 	 box-shadow: 10px 10px 0 #00A55D;
+    }
+	
+    #registration a:hover{
+
+ 	 white-space: nowrap;
+ 	 background-color: #00A55D;
+ 	 border: solid 0.1em #00A55D;
+
+ 	 font-size: 5em;
+ 	 color:#FFF;
+	 
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+	 
+    -moz-box-shadow: 0 0 0 #00A55D;
+    -webkit-box-shadow: 0 0 0 #00A55D;
+    box-shadow: 0 0 0 #00A55D;
+    }
+	 
+ 	/* == CONTACT == */
+	
+ 	#contact {
+
+ 	}
+	
+ 	#contact div{
+  		background-color:rgba(255,255,255,0);
+ 		text-align: center;
+ 	}
+	      
+ 	#contact h1 {
+ 		padding: 0 0.7em 0 0.3em;
+      margin: 0 0 1em 1em;
+ 		border-color: #F5928D;
+ 		color: #F5928D;
+ 		text-decoration: none;
+ 		text-transform: uppercase;
+ 	}
+	
+	#contact h2{
+		font-size: 4em;
+		color:rgba(244,145,140,0.9);
+	}  
+	 
+     #contact a {
+		
+ 		margin: 0 auto 0 auto;
+
+   	   text-decoration: underline;
+   	   font-size:4em;
+   	   color:#333;
+     }
+   
+     #contact a:hover {
+  	   text-decoration: none;
+  	   color:#F5928D;
+   	font-size:4em;
+     }
+	  
+  	#video img {
+  		width: 100%;
+  	}
+
+#nav{
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (device-aspect-ratio: 2/3) {
+	
+	
+	#sm-link {
+		display: none !important;
+	}
+	
+	#sm-link-mobile {
+		display: block !important;
+		float: none;
+	}
+	
+	#sm-link-mobile img {
+		margin-top: 0.2em;
+		width: 1em;
+	}
+
+	
+	p {
+		font-size: 0.9em;
+	}
+
+	blockquote {
+		font-size: 1.8em;
+	}
+
+	a {
+		position:relative;
+		z-index:99;
+		text-decoration:none;
+		font-size:0.8em;
+		color:#FFF;
+	}
+	
+	h1 {
+		font-size: 6.5em;
+		
+		width: 90% !important;		
+		margin: 0 auto 0.5em auto !important;
+
+		padding: 0 !important;
+		
+		text-align: center;
+	
+	  	 background-color: #FFF;
+	  	 border: solid 0.1em;
+	  	 text-decoration: none;
+	  	 text-transform: uppercase;
+	 	
+		background-color: #FFF;
+		border: solid 0.1em;
+
+		-moz-box-shadow: 10px 10px 0;
+		-webkit-box-shadow: 10px 10px 0;
+		box-shadow: 10px 10px 0;
+	}
+	
+	#video {
+		margin-top: 12em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+	   font-size: 1em;
+	}
+	
+	.special-wrap {
+		display: none;
+	}
+	
+	blockquote {
+		font-size: 3.2em;
+		width: 98%;
+		background-color: rgba(255,255,255,0) !important;
+		line-height: 1.2em;
+	}
+	
+	section {
+	   padding-top: 12em;
+		margin: 0 auto 0 auto !important;
+	   position: relative;
+		width: 100%;
+	}
+			
+   #about blockquote {
+		color: rgb(21,143,207);
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+	}
+	
+	#about h1 {
+		margin-top: 2em !important;
+	}
+	  	
+   #ocaduniversity blockquote {
+		color: rgb(198, 126, 180);
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+	}
+	
+   #description li {
+	width: 100%;
+	float: none;
+	margin-bottom: 0;
+	
+	font-size: 2.8em;
+   }
+	
+   #themes #description h2 {
+	   text-align: center;
+	   padding-left:0.25em;
+	   margin:0;
+	   z-index:99;
+   }
+
+   #themes #description h3 {
+	   position:relative;
+	   text-align:left;
+	   font-size: 1em !important;
+	   padding-left:0.4em;
+	   margin: 0.5em 0 0 0;
+	   z-index:99;
+	text-transform: uppercase;
+	color: #000;
+	opacity: 0.6;
+   }
+	
+	#thinking {
+		margin: 0;
+	}
+	
+	#building {
+		margin: 0;
+	}
+	
+	#regenerating {
+		margin: 0;
+	}
+	
+	#creating {
+		margin: 0;
+	}
+	
+	#visualizing {
+		margin: 0;
+	}
+	
+	#description img {
+		margin: 0 auto 0 auto;
+		overflow: hidden;
+	}
+	
+	#description p {
+		overflow: hidden; 
+	}
+	
+	#themes blockquote {
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+		color: rgb(229,168,35);
+	}
+	
+	table td {
+		padding-left: 0.5em;
+		white-space: pre-wrap;
+	}
+		
+	table {
+		font-size: 2.5em;
+		width: 100%;
+	}
+	
+	#registration blockquote {
+		margin: 0 auto 0 auto !important;
+		width: 90% !important;
+		color: rgb(0,164,93);
+	}
+	
+   #registration li {
+	width: 100%;
+	margin: 0 auto 3.5em auto;
+	float: none;
+	text-align: center;
+	background-color: rgba(255,255,255,0) !important;
+	padding-bottom: 0.6em;
+   }
+
+	#registration ul {
+		padding: 0;
+		margin: 3em auto 0 auto;
+		width: 90%;
+	}
+	
+   #registration h2{
+		padding: 0.3em 0 0.3em 0;
+		text-transform: uppercase;
+		font-size: 4em;
+		color: #FFF;
+    }
+	 
+    #registration h3{
+ 	   margin-top: 0.5em;
+ 	 font-size: 3.2em;
+ 	 color: rgb(0,164,93);
+    }
+	 
+	 #registration p {
+	    color:#000;
+	 	opacity: 0.6;
+	    font-size: 5em !important;	   
+	 }
+	 
+    #registration a{
+ 	padding: 0 0.3em 0 0.3em;
+ 	 margin: 0 0 0 18%;
+	 
+ 	 white-space: nowrap;
+ 	 background-color: #FFF;
+ 	 border: solid 0.1em #00A55D;
+
+ 	 font-size: 5em;
+	 
+ 	 color:#00A55D;
+	 
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+ 	 -moz-box-shadow: 10px 10px 0 #00A55D;
+ 	 -webkit-box-shadow: 10px 10px 0 #00A55D;
+ 	 box-shadow: 10px 10px 0 #00A55D;
+    }
+	
+    #registration a:hover{
+
+ 	 white-space: nowrap;
+ 	 background-color: #00A55D;
+ 	 border: solid 0.1em #00A55D;
+
+ 	 font-size: 5em;
+ 	 color:#FFF;
+	 
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+	 
+    -moz-box-shadow: 0 0 0 #00A55D;
+    -webkit-box-shadow: 0 0 0 #00A55D;
+    box-shadow: 0 0 0 #00A55D;
+    }
+	 
+ 	/* == CONTACT == */
+	
+ 	#contact {
+
+ 	}
+	
+ 	#contact div{
+  		background-color:rgba(255,255,255,0);
+ 		text-align: center;
+ 	}
+	      
+ 	#contact h1 {
+ 		padding: 0 0.7em 0 0.3em;
+      margin: 0 0 1em 1em;
+ 		border-color: #F5928D;
+ 		color: #F5928D;
+ 		text-decoration: none;
+ 		text-transform: uppercase;
+ 	}
+	
+	#contact h2{
+		font-size: 4em;
+		color:rgba(244,145,140,0.9);
+	}  
+	 
+     #contact a {
+		
+ 		margin: 0 auto 0 auto;
+
+   	   text-decoration: underline;
+   	   font-size:4em;
+   	   color:#333;
+     }
+   
+     #contact a:hover {
+  	   text-decoration: none;
+  	   color:#F5928D;
+   	font-size:4em;
+     }
+	  
+  	#video img {
+  		width: 100%;
+  	}
+
+#nav{
+		font-size: 1.4em;
+	}
+	
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* Styles */
+
+}

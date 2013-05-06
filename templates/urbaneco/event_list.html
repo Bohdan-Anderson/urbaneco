@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{% endblock %}
+
+{% block content %}
+
+<table>
+
+	<colgroup>
+		<col id="time">
+		<col id="events">
+	</colgroup>
+	
+	<thead>
+		<td>Time</td>
+		<td class="events">Event</td>
+	</thead>
+	
+	{% if object_list %}
+	
+		{% for obj in object_list %}
+		
+			<!--<a href="/events/{{ obj.slug }}/"><h1>{{ obj.event_name }}</h1></a>
+			<p> {{ obj.location }}</p>-->
+			
+			<tr id="rowclick" class="lineItem">
+				
+				<td>{{ obj.time.time }}&ndash;{{ obj.time.time }}</td>
+				<td class="events">{{ obj.event_name }}</td>
+
+			</tr><tr id="info" class="details">
+				
+				<td>
+					
+					<h3><strong>{{ obj.event_name }}</strong></h3>
+
+					<p>{{ obj.description }}</p>
+					
+					<h4><strong>Moderator:</strong></h4>
+					<p>Ian Clarke, OCAD University</p>
+					
+					<h4><strong>Themes:</strong></h4>
+					<p>{{ obj.themes.theme_name}}</p>
+				
+				</td>
+				
+				
+				<td>
+				
+					<ul>
+						<h4><strong>Speakers:</strong></h4>
+						<li><strong>Craig Applegath, DIALOG</strong></br>Architecture as Biology: Designing eco-effective building</li>
+						<li><strong>Michael Ormstrom-Holloway, The Planning Partnership</strong></br>Urban Ecologies as Landscape Infrastructure</li>
+						<li><strong>Piper Bernbaum &amp; Fraser Plaxton, University of Waterloo</strong></br>Arctic Spine: A co-operative utilidor project</li>
+						<li><strong>Maya Desai, Moriyama &amp; Teshima Architects</strong></br>Synthetic Landscapes</li>
+					</ul>
+				</td>
+			
+			</tr>
+			
+		{% endfor %}
+		
+	{% else %}
+	
+		<h1>no events</h1>
+	{% endif %}
+
+</table>
+
+{% endblock %}
